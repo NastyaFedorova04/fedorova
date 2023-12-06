@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Форма для покупки авиабилетов</title>
+<h1 align="center">Поиск дешёвых авиабилетов</h1>
+<link rel=stylesheet type="text/css" href="normalize.css">
+<link rel=stylesheet type="text/css" href="1.css">
+</head>
+<body>
+<div style="
+   width: 1000px;
+   text-align: justify;
+   padding: 10px 100px 10px 400px;
+">,
+<form>
+<table width="1000" border="1">
+<tr>
+<th>Откуда</th>
+<th>Куда</th>
+<th>Когда</th>
+<th>Обратно</th>
+<th>Пассажиры и класс</th>
+</tr>
+<tr>
+<td><input type="text" required></td>
+<td>
+<select id="citySelect">
+  <option value="Москва">Москва</option>
+  <option value="Санкт-Петербург">Санкт-Петербург</option>
+  <option value="Казань">Казань</option>
+  <option value="Екатеринбург">Екатеринбург</option>
+  <option value="Томск">Томск</option>
+  <option value="Нижний Новгород">Нижний Новгород</option>
+  <option value="Новосибирск">Новосибирск</option>
+  <option value="Омск">Омск</option>
+  <option value="Иркутск">Иркутск</option>
+  <option value="Чита">Чита</option>
+</select></td>
+<td><label><input type="date" required></label></td>
+<td><label><input type="date" required></label></td>
+<td><form action="handler.php">
+<p>Класс обслуживания</p>
+<p><input type="radio" name="a" value="эконом">эконом</p>
+<p><input type="radio" name="a" value="комфорт">комфорт</p>
+<p><input type="radio" name="a" value="бизнес">бизнес</p>
+<p><input type="radio" name="a" value="первый класс">первый класс</p>
+</form>
+<form action="handler.php">
+<p>Количество пассажиров</p>
+<p><input type="checkbox" id="b" name="b"/>
+<label for="b">Взрослые (12 лет и старше)</label></p>
+<p><input type="checkbox" id="c" name="c"/>
+<label for="c">Дети (От 2 до 11 лет)</label></p>
+<p><input type="checkbox" id="d" name="d"/>
+<label for="d">Младенцы (Младше 2 лет, без места)</label></p>
+</form></td>
+</tr>
+</table>
+<p class="mem">Введите ваш E-mail: <input type="email" required></p>
+<p class="mem">Введите ваш номер телефона: <input type="tel" required></p>
+<p><input type="submit" value="Отправить на обработку данных"></p>
+</form>
+</div>
+</body>
+</html>
