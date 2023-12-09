@@ -1,0 +1,142 @@
+p{
+font-size:18px;
+color:#C10066;
+ text-align:left; 
+text-indent:1cm;
+}
+.markers {
+	margin: 0 0 20px 14px;
+	padding: 0;
+}
+.markers li {
+	list-style-image: url(2.jpg);
+	margin: 7px 0;
+}
+.ooo{
+align:left;
+width:30%;
+height:30%
+border:10px solid #666666; /* Цвет и ширину рамки */
+border-radius: 10px;  /* Скругление углов изображения */
+box-shadow: 2px 1px 5px #CCFF99; /*Цвет и размер тени */
+float:left; /* Выравниваем по левому краю */
+margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+.lol{
+align:center;
+width:20%;
+height:30%;
+border:10px solid #56382d; /* Цвет и ширину рамки */
+border-radius: 50%;  /* Скругление углов изображения */
+box-shadow: 2px 1px 5px #CCFF99; /*Цвет и размер тени */
+float:right; /* Выравниваем по правому краю */
+margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+.mem{
+align:center;
+width:50%;
+height:30%;
+border:10px solid #56382d; /* Цвет и ширину рамки */
+box-shadow: 2px 1px 5px #56382d; /*Цвет и размер тени */
+border-radius: 10px;  /* Скругление углов изображения */
+margin: 10px 10px 10px 0; /* Настраиваем отступы вокруг картинки */
+}
+div {
+    text-align: center;
+}
+table {
+   border-collapse: collapse; /* Убираем пустые промежутки между ячейками */
+   border: 1px solid #56382d; /* Цвет и толщина внешней границы */
+}
+th, td {
+font-size:18px;
+   border: 2px solid #56382d;
+}
+caption {
+   caption-side: top;
+   text-align: center;
+   padding: 10px 0;
+   font-size: 18px;
+}
+body {
+background-color: #CCDDFF
+}
+h1{
+font-size: 24px;
+color: #56382d;
+	font-family: 'Crimson Text';
+	font-style: italic
+}
+h2{
+font-size: 18px;
+color: #56382d;
+	font-family: 'Crimson Text';
+	font-style: italic
+}
+h3{
+font-size: 14px;
+color: #56382d;
+	font-family: 'Crimson Text';
+	font-style: italic
+}
+li{
+font-size: 18px;
+color: #770077;
+text-indent:1cm;
+}
+@font-face {
+	font-family: 'Crimson Text';
+	font-style: italic;
+	font-weight: normal;
+	src: local('Crimson Text'),
+		url('/fonts/CrimsonText-Italic.woff2') format('woff2'), 
+		url('/fonts/CrimsonText-Italic.woff') format('woff'),
+		url('/fonts/CrimsonText-Italic.ttf') format('ttf'),
+		url('/fonts/CrimsonText-Italic.eot') format('eot');
+}
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#mainmenu {
+    background: #EEFFBB;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 30px 0
+}
+#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+#mainmenu ul li a {
+    color: #00BBFF;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+#mainmenu ul li a:hover {
+    background-color: #FFB7DD;
+}
+
