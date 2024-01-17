@@ -1,0 +1,33 @@
+
+        label{
+        color: #4bd3b5;
+        }
+         table {
+          border-collapse: collapse;
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 10%;
+        }
+
+        table, th, td {
+            border: 2px solid #184663;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4bebd8;
+        }
+        .weekend {
+            color: red;
+        }
+        .current-day {
+            background-color: #a8e8dd;
+        }
+        .highlighted-day {
+            color: #fd0000;
+            background-color: #d1eee9;
+        }
