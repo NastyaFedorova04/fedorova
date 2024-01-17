@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Форма для покупки авиабилетов</title>
+<h1 align="center">Поиск дешёвых авиабилетов</h1>
+<link rel=stylesheet type="text/css" href="normalize.css">
+<link rel=stylesheet type="text/css" href="1.css">
+</head>
+<body>
+<div style="
+   width: 1000px;
+   text-align: justify;
+   padding: 10px 100px 10px 400px;
+">,
+<form action="" method="post" name="reg_form" class="reg_form" id="reg_form">
+<table width="1000" border="1">
+<tr>
+<th>Откуда</th>
+<th>Куда</th>
+<th>Когда</th>
+<th>Обратно</th>
+<th>Пассажиры и класс</th>
+</tr>
+<tr>
+<td><input type="text" name="name" id="name" required></td>
+<td>
+<select id="citySelect" name="city">
+  <option value="Москва">Москва</option>
+  <option value="Санкт-Петербург">Санкт-Петербург</option>
+  <option value="Казань">Казань</option>
+  <option value="Екатеринбург">Екатеринбург</option>
+  <option value="Томск">Томск</option>
+  <option value="Нижний Новгород">Нижний Новгород</option>
+  <option value="Новосибирск">Новосибирск</option>
+  <option value="Омск">Омск</option>
+  <option value="Иркутск">Иркутск</option>
+  <option value="Чита">Чита</option>
+</select></td>
+<td><label><input type="date" name="date" required></label></td>
+<td><label><input type="date" name="date" required></label></td>
+<td>
+<p>Класс обслуживания</p>
+<p><input type="radio" name="a" id="ec" value="эконом">эконом</p>
+<p><input type="radio" name="a" id="com" value="комфорт">комфорт</p>
+<p><input type="radio" name="a" id="bus" value="бизнес">бизнес</p>
+<p><input type="radio" name="a" id="fir" value="первый класс">первый класс</p>
+<p>Количество пассажиров</p>
+<p><input type="checkbox" id="b" name="num"/>
+<label for="b">Взрослые (12 лет и старше)</label></p>
+<p><input type="checkbox" id="c" name="num"/>
+<label for="c">Дети (От 2 до 11 лет)</label></p>
+<p><input type="checkbox" id="d" name="num"/>
+<label for="d" id="e" name="num">Младенцы (Младше 2 лет, без места)</label></p>
+</td>
+</tr>
+</table>
+<p class="mem">Введите ваш E-mail: <input type="email" name="email" id="email" required></p>
+<p class="mem">Введите ваш номер телефона: <input type="tel" name="phone" id="phone" required></p>
+<p><input type="submit" value="Отправить на обработку данных"></p>
+</form>
+</div>
+<script src="1.js"></script>
+</body>
+</html>
